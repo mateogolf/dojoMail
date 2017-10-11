@@ -7,4 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  emails = [
+    {email:'bill@gates.com',
+    importance:'High',
+    subject: 'New Windows',
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel neque suscipit, ornare leo quis, pharetra tellus. Pellentesque quis fringilla ipsum, sit amet ultricies mauris. Duis porta non eros eu vehicula. Sed molestie posuere ullamcorper. Aenean tempor urna sed interdum sagittis.'},
+    {
+      email: 'matt@gates.com',
+      importance: 'High',
+      subject: 'New Windows',
+      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel neque suscipit, ornare leo quis, pharetra tellus.'
+    },
+    {
+      email: 'cstooge@gates.com',
+      importance: 'Low',
+      subject: 'Wuwuwuwuwuwu',
+      content: 'Pellentesque quis fringilla ipsum, sit amet ultricies mauris. Duis porta non eros eu vehicula. '
+    },
+    {
+      email: 'mstooge@gates.com',
+      importance: 'Low',
+      subject: 'You idiot!!',
+      content: 'Pellentesque quis fringilla ipsum, sit amet ultricies mauris. Duis porta non eros eu vehicula. '
+    },
+  ]
 }
